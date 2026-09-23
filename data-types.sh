@@ -12,3 +12,5 @@ read username
 read -s password
  movies=("raju" "chinni" "prabhas")
  echo "${movies[2]}"
+ echo "$0"
+ 
