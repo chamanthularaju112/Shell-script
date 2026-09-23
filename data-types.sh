@@ -11,4 +11,4 @@ echo "set ayyindhi antava"
 read username
 read -s password
  movies=("raju" "chinni" "prabhas")
- echo "{movies[2]}"
+ echo "${movies[2]}"
