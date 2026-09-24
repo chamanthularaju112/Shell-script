@@ -15,7 +15,6 @@ read -s password
  echo "$0"
  
  read number
- number=$10
  if [ $number -gt 10 ]
 then
     echo "greater"
