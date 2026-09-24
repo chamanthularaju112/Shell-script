@@ -14,7 +14,7 @@ read -s password
  echo "${movies[2]}"
  echo "$0"
  
- read number
+ read "number= "
  if [ $number -gt 10 ]
 then
     echo "greater"
