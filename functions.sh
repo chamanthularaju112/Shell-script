@@ -11,7 +11,7 @@ validate(){
     fi
 }
 
-if [ userid -ne 0 ]
+if [ $userid -ne 0 ]
 then
     echo "please run with root access"
     exit 1
