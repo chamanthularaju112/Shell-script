@@ -19,4 +19,4 @@ else
    echo "you are super user"
 fi
 
-validate $userid
+validate $userid "root access"
