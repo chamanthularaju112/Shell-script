@@ -21,3 +21,4 @@ else
 fi
 
 validate $userid "root access"
+&> timestamp
