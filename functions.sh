@@ -2,7 +2,7 @@
 
 userid=$(id -u)
 timestamp=$(date +%F-%H-%M-%S)
-scriptname=$($0)
+scriptname=$0
 validate(){
     if [ $1 -ne 0 ]
     then
