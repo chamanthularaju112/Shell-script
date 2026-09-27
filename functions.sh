@@ -3,7 +3,7 @@
 userid=$(id -u)
 
 validate(){
-    if [$1 -ne 0]
+    if [ $1 -ne 0 ]
     then
        echo "$2...fail"
     else
@@ -11,7 +11,7 @@ validate(){
     fi
 }
 
-if [userid -ne 0]
+if [ userid -ne 0 ]
 then
     echo "please run with root access"
     exit 1
@@ -19,4 +19,4 @@ else
    echo "you are super user"
 fi
 
-validate
+validate $userid
